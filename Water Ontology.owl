@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#"
+     xml:base="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasFabricationNo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasFabricationNo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasFirmwareVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasFirmwareVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasHardwareVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasHardwareVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasManufacture -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasManufacture">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasMeterVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasMeterVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasModel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasModel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#typeOfWaterMeter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#typeOfWaterMeter">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasBatteryOperatingTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasBatteryOperatingTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasGeoLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasGeoLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasLatitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasGeoLocation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasLongitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasLongitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasGeoLocation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasOperatingTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasOperatingTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasPower -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasPower">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasRadioFrequencyLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasRadioFrequencyLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasRemainingTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasRemainingTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasVolume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasVolume"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#AcousticDopplerInstrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#AcousticDopplerInstrument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterFlowInstrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Actuator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Actuator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Aqueduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Aqueduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset">
+        <rdfs:comment>It is a collection of different water bodies.</rdfs:comment>
+        <rdfs:isDefinedBy>It is a type of Water InfraStructure.</rdfs:isDefinedBy>
+        <rdfs:label>Asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#CatchmentWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#CatchmentWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#ConductivitySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#ConductivitySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Dam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Dam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Device">
+        <rdfs:comment>It is a Physical Instrument for monitoring the water infrastructure.</rdfs:comment>
+        <rdfs:isDefinedBy>Collection of physical equipments.</rdfs:isDefinedBy>
+        <rdfs:label>Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FabricationNo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FabricationNo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FirmwareVersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FirmwareVersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FlowSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FlowSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FlowStation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FlowStation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterFlowInstrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#GroundWaterWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#GroundWaterWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#HardwareVersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#HardwareVersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Indicator">
+        <rdfs:label>Indicator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#InfrastructureMeasurements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#InfrastructureMeasurements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#LevelSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#LevelSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Measurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Measurement">
+        <rdfs:comment>“Measurement” is the act of determining a target&apos;s size, length, weight, capacity, or other aspect.</rdfs:comment>
+        <rdfs:isDefinedBy>It is require to estimate the quality of water.</rdfs:isDefinedBy>
+        <rdfs:label>Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#MeterMeasurements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#MeterMeasurements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#ORPSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#ORPSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Pipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Pipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PlanarIon-SelectiveMicroelectrode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PlanarIon-SelectiveMicroelectrode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMonitoringSensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PotentioMetricSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PotentioMetricSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMonitoringSensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Actuator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PressureOperatedElectronicMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PressureOperatedElectronicMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterFlowInstrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PressureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PressureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PropellerCurrentMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#PropellerCurrentMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterFlowInstrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property">
+        <rdfs:label>Property</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#RainfallSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#RainfallSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Regulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Regulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Actuator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Reservoir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Reservoir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#ResidualChlorineSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#ResidualChlorineSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Screen_LevelSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Screen_LevelSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#SpillSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#SpillSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#StorageTank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#StorageTank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#StrippingVoltammetrySensore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#StrippingVoltammetrySensore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMonitoringSensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#SurfaceVelocityRadarSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#SurfaceVelocityRadarSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#VelocitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#SurfacewaterIntake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#SurfacewaterIntake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TOCSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TOCSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Tarrif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Tarrif">
+        <rdfs:label>Tarrif</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TempratureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TempratureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Tridal_GaugeSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Tridal_GaugeSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TurbidityMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TurbidityMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TurbiditySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TurbiditySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Valve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Valve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Actuator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#VelocityDepthSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#VelocityDepthSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#VelocitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#VelocitySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#VelocitySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version">
+        <rdfs:label>Version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WasteWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WasteWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterDepthSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterDepthSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterDevice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterFlowInstrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterFlowInstrument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterInterfaceMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterInterfaceMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterLevelMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterLevelMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeasurements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeasurements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasFabricationNo"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FabricationNo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasFirmwareVersion"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FirmwareVersion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasHardwareVersion"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#HardwareVersion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasManufacture"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterManufacturer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasMeterVersion"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#hasModel"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterModel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterManufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterManufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterVersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterVersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMonitoringSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMonitoringSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterPump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterPump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterFlowInstrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualityMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualityMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#pHSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#pHSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualitySensor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/saref4agri#Animal -->
+
+    <owl:Class rdf:about="https://w3id.org/def/saref4agri#Animal"/>
+    
+
+
+    <!-- https://w3id.org/saref#UnitOfMeasure -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#UnitOfMeasure"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Cold-water_Meter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Cold-water_Meter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Firm123.7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Firm123.7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FirmwareVersion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Hard23.5b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Hard23.5b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#HardwareVersion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Meterall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Meterall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterManufacturer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TBD01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TBD01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#TurbidityMeter"/>
+        <hasMeterVersion rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version_1.2"/>
+        <typeOfWaterMeter rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Cold-water_Meter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Turion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Turion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterModel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version_1.2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version_1.2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterVersion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version_1.3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version_1.3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterVersion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version_1.4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version_1.4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Version"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeterVersion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WIM01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WIM01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterInterfaceMeter"/>
+        <hasModel rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Turion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WLM01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WLM01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterLevelMeter"/>
+        <hasModel rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Turion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WQM01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WQM01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterQualityMeter"/>
+        <hasModel rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Turion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Watermeter243 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Watermeter243">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+        <hasVolume rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"></hasVolume>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Watermeter44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#Watermeter44">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#WaterMeter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#4837QW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#4837QW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#FabricationNo"/>
+        <hasFabricationNo rdf:resource="http://www.semanticweb.org/stiwari/ontologies/2019/6/untitled-ontology-62#4837QW"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
